@@ -40,29 +40,10 @@ The model is trained using real-world-like student data and deployed using Strea
 ├── requirements.txt       # Dependencies
 └── README.md              # Project documentation
 
----
-
-⚙️ Installation & Setup
-
-1. Clone the Repository
-
-git clone https://github.com/your-username/burnout-predictor.git
-cd burnout-predictor
-
-2. Install Dependencies
-
-pip install -r requirements.txt
-
-3. Run the App
-
-streamlit run app.py
-
----
 
 🌐 Live Demo
 
 Deployed using Streamlit Cloud
-👉 (Add your link here after deployment)
 
 ---
 
