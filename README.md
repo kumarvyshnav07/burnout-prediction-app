@@ -1,96 +1,119 @@
-# burnout-prediction-app
-🎓 Student Burnout Prediction App
+# 🎓 Student Burnout Prediction System
 
-📌 Overview
-
-This project is a Machine Learning web application that predicts student burnout levels based on lifestyle, academic, and mental health factors.
-
-The model is trained using real-world-like student data and deployed using Streamlit for an interactive user interface.
+An AI-powered machine learning project that predicts student burnout levels (Low, Medium, High) based on lifestyle, academic, and mental health factors.
 
 ---
 
-🚀 Features
+## 🚀 Live App
 
-- Predicts burnout level: Low, Medium, High
-- User-friendly web interface
-- Real-time predictions
-- Machine Learning model using XGBoost
-- Handles categorical & numerical data
+👉 https://burnout-prediction-app-nrx232tpqlyp92zgnzsnmz.streamlit.app/
+
 
 ---
 
-🧠 Tech Stack
+## 📌 Project Overview
 
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- XGBoost
-- Joblib
-- Streamlit
+This project uses machine learning to analyze student data and predict burnout levels.  
+It helps identify students at risk and supports early intervention.
 
 ---
 
-📂 Project Structure
-
-├── app.py                 # Streamlit web app
-├── burnout_model.py       # Model training script
-├── burnout_model.pkl      # Trained ML model
-├── columns.pkl            # Feature columns
-├── student_data.csv       # Dataset
-├── requirements.txt       # Dependencies
-└── README.md              # Project documentation
-
-
-🌐 Live Demo
-
-Deployed using Streamlit Cloud
-
----
-
-📊 Model Details
+## 🧠 Model Details
 
 - Algorithm: XGBoost Classifier
-- Type: Multi-class classification
-- Classes:
-  - 0 → Low
-  - 1 → Medium
-  - 2 → High
+- Problem Type: Multi-class Classification
+- Target Variable: Burnout Level (Low, Medium, High)
 
 ---
 
-📈 Inputs Used
+## 📊 Features Used
 
 - Age
+- Gender
+- Course & Year
 - Study Hours
 - Sleep Hours
+- Screen Time
 - Stress Level
 - Anxiety Score
 - Depression Score
-- CGPA
-- Screen Time
+- Academic Pressure
+- Financial Stress
+- Social Support
 - Physical Activity
-- And more...
+- Sleep Quality
+- Attendance Percentage
+- CGPA
+- Internet Quality
 
 ---
 
-💾 Model Training
+## ⚙️ Tech Stack
 
-To retrain the model:
-
-python burnout_model.py
-
----
-
-🤝 Contributing
-
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
-
----
-
-📜 License
-
-This project is for educational purposes.
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- Streamlit
+- Joblib
+- Matplotlib
 
 ---
 
-⭐ If you like this project, give it a star!
+## 📂 Project Structure
+
+```
+project-folder/
+│
+├── app.py                 # Streamlit App
+├── burnout_model.pkl      # Trained Model
+├── columns.pkl            # Feature Columns
+├── student_data.csv       # Dataset
+├── burnout_model.py       # Training Script
+├── requirements.txt       # Dependencies
+└── README.md              # Project Documentation
+```
+
+## 📦 requirements.txt
+
+```
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+joblib
+```
+
+---
+
+## 💡 Key Features
+
+- Predicts burnout level instantly
+- Clean and interactive UI (Streamlit)
+- Handles categorical & numerical data
+- Feature importance visualization
+- Real-world applicable use case
+
+---
+
+## 📈 Future Improvements
+
+- Add real-time student dashboard
+- Improve model accuracy with more data
+- Add deep learning models
+- Deploy with database integration
+
+---
+
+## 👨‍💻 Author
+
+Pampina Kumar Vyshnav
+
+---
+
+## ⭐ If you like this project
+
+Give it a star on GitHub ⭐
